@@ -1,5 +1,8 @@
 package com.fretes.depois.calculadora.estrategias;
 
+import org.springframework.stereotype.Component;
+
+@Component("normal")
 public class FreteNormalStrategy implements FreteStrategy {
     private static final double VALOR_POR_KG = 0.1;
     private static final double VALOR_POR_KM = 0.05;

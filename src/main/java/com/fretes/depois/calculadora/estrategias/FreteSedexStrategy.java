@@ -1,5 +1,8 @@
 package com.fretes.depois.calculadora.estrategias;
 
+import org.springframework.stereotype.Component;
+
+@Component("sedex")
 public class FreteSedexStrategy implements FreteStrategy{
     private static final double VALOR_POR_KG = 0.3;
     private static final double VALOR_POR_KM = 0.15;
